@@ -3,7 +3,7 @@ Android Build Type Example
 
 Creating Build Type
 --------------
-In app level build.gradle file inside android you can create custom build types as per development process :
+In app level build.gradle file inside `android` you can create custom build types as per development process :
 <br/>
 ```
    buildTypes {
