@@ -46,9 +46,16 @@ Creating BuildConfig variable
 You can create your own varialble for different build types. For example you can set your `BASE_URL` value for build types and access from your code.
 <br>
 ```
-    staging {
+    dev {
             buildConfigField "String", "BASE_URL", '"http://api.dev.domain.com/"'
+        } 
+    staging {
+            buildConfigField "String", "BASE_URL", '"http://api.stage.domain.com/"'
         }
+        
+    release {
+            buildConfigField "String", "BASE_URL", '"http://api.domain.com/"'
+        }   
 
 ```
 You can access the variable from code like this:
