@@ -72,7 +72,7 @@ You can append a suffix to application package name from buildTypes:
 ```
 Changing output apk name 
 --------------
-You can change the output apk name for every build type from build.gradle file like below:
+You can change the output apk name for every build type from build.gradle file like below. Output file name has a limit son if app name is too long it will give an error. If app name is short then you can directly use the `applicationName` property.
 <br/>
 
 ```
